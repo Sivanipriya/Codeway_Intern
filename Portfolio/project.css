@@ -1,0 +1,66 @@
+body {
+  background-image: url('62802.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1{
+  color: #ffcc66;
+}
+h2{
+  color:turquoise;
+}
+
+.project-section {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  color: white; /* Text color */
+  padding: 50px; /* Adjust as needed */
+}
+
+.project {
+  margin-bottom: 20px; /* Adjust as needed */
+  width: 100%; /* Ensure the project takes up full width */
+  display: flex; /* Use flexbox to align items */
+}
+
+.project-details {
+  padding-right: 20px; /* Add some space between text and images */
+  margin-top: 20px; /* Add margin between title and project details */
+}
+
+.project-images {
+  width: 40%; /* Adjust as needed */
+  height: 100vh; /* Set height to viewport height */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.project-images img {
+  width: 100%;
+  display: block;
+  margin-top: auto; /* Push the first image to the top */
+  margin-bottom: auto; /* Push the second image to the bottom */
+}
+
+.project p {
+  font-size: 18px;
+}
+
+.project a {
+  display: inline-block;
+  background-color: #007bff; /* Button color */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #0056b3; /* Button color on hover */
+}

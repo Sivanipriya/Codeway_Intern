@@ -1,0 +1,91 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* White text */
+}
+
+.container {
+    max-width: 800px;
+   margin: 50px 50px;
+
+}
+span{
+    color:#ffcc66;
+    font-style: bold;
+}
+header {
+    text-align: center;
+}
+.date{
+    color:#90EE90;
+}
+header h1 {
+    font-size: 36px;
+    color: turquoise; /* Turquoise color */
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.5;
+    color:aliceblue /* Light yellow color */
+}
+h2{
+    color: #40E0D0;
+}
+#education {
+    margin-top: 50px;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.symbol {
+    position: absolute;
+    top: 0;
+    left: 500px; /* Adjust as needed */
+    font-size: 24px;
+    color: #ffcc66; /* Light yellow color */
+}
+
+.details {
+    margin-bottom: 5px;
+}
+
+.institution {
+    font-style: italic;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    text-align: center;
+    background-color: #66ccff; /* Light blue */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.toggle-checkbox:checked ~ #additional-content {
+    display: block;
+}
