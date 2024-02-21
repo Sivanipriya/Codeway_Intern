@@ -1,0 +1,160 @@
+/* Updated CSS with changes */
+html, body.landing-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.booking-form {
+    background-color: #f9ebdf; /* Light orange color */
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #e74c3c; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b; /* Dark red color */
+}
+
+.bus-list {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.bus-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bus-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.bus-list img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.bus-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bus-list p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+footer {
+    background-color: #2c3e50; /* Dark blue color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Updated CSS with button styles */
+.bus-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    position: relative; /* Adding relative positioning */
+}
+
+.bus-list .book-btn {
+    position: absolute;
+    right: 20px; /* Adjust the distance from the right as needed */
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bus-list .book-btn:hover {
+    background-color: #c0392b;
+}
+
+.bus-list img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.bus-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bus-list p {
+    font-size: 1.2rem;
+    color: #666;
+}
