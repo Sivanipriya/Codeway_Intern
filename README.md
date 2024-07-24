@@ -1,1 +1,1 @@
-This Repositry contains my Online Codeway Intern using HTML and css.
+This Repo contains my tasks done with HTML, css and js  during my Online Web dev internship from Codeway.
